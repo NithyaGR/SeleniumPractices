@@ -1,0 +1,4 @@
+ java.lang.IncompatibleClassChangeError: Found interface org.apache.poi.util.POILogger, but class was expected
+ 
+ The above error I got when I used apche poi and poi ooxml versions 4.1.0
+ After changing to version 4.0.1, the error was gone. This is done in pom.xml.

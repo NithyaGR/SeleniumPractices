@@ -1,0 +1,5 @@
+Exception in thread "main" java.lang.NullPointerException
+	at practiceAssignments.MouseHoverEx.openWebPage(MouseHoverEx.java:15)
+	at practiceAssignments.MouseHoverEx.main(MouseHoverEx.java:31)
+
+	When I didn't write driver = new ChromeDriver();

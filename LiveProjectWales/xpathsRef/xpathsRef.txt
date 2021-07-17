@@ -1,0 +1,27 @@
+//h3[contains(text(),'Gifts for Mom')]
+
+class="sc-bdVaJa Container-zv2qdc-0 styles__StyledContainer-sc-2fw7jo-0 bytBRt"
+
+//h3[contains(text(),'Gifts for Mom')]/ancestor::div[contains(@class,'sc-')]
+
+
+//h3[contains(text(),'Gifts for Mom')]/ancestor::div[contains(@class,'sc-')]/following::div[contains(@class,'sc-')]
+
+
+ (//h3[contains(text(),'Gifts for Mom')]/ancestor::div[contains(@class,'sc-')]/child::div/following::img)[1]
+
+
+( //img/parent::h3[contains[text(),'Gifts for Mom']
+
+a/div/img
+
+//h3[contains(text(),'Gifts for Mom')]/following::div//a//img
+
+(//h3[contains(text(),'Gifts for Mom')]/following::div//a//img)[4]
+
+openMRS
+
+appointmentTypesTable
+//table(@id='appointmentTypesTable')/tr/td[0]
+//table[@id='appointmentTypesTable']/tbody/tr/td[1]
+//table[@id='appointmentTypesTable']/tbody/tr/td[4]/span//i[@title="Delete"]

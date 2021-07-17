@@ -1,0 +1,23 @@
+header-search-input
+
+header-search-input
+<li class="Bd(n) Lh(1.1) List(n) Pos(r) Ta(l)" pos="0" role="option" 
+data-ylk="cpos:0;elm:itm;elmt:srch;itc:0;rspns:nav;sec:srch;slk:srchast;t1:a1;t2:srch;t3:tray;t9:10;gprid:;query:;pqstr:;tar:search.yahoo.com"
+ data-position="0" data="selenium tutorial"><span class="C(#000) Ff(ss) Fz(18px) Fw(b) Mend(40px) Pb(5px) Pend(3px) Pstart(10px) Pt(5px) Wow(bw)" 
+style="display: block;"><span class=""><b class="Fw(n)">selenium</b> tutorial</span></span></li>
+
+//li[contains(@class,Bd(n))] && [contains(@data,selenium)]
+
+//li[@class ='Bd(n) Lh(1.1) List(n) Pos(r) Ta(l)'] -- finding all the search list box items
+
+//li[starts-with(@data,'selenium')]
+//li[starts-with(@data,'selenium')] ----------finding all the search list box items
+//li[contains(@data, 'selenium interview questions')]
+//li[@class ='Bd(n) Lh(1.1) List(n) Pos(r) Ta(l)' && @data = 'selenium interview questions']
+
+//li[@data = 'selenium interview questions'] ----finding the correct search context
+//a[@id = 'yui_3_10_0_1_1586620117878_969'] ----- button 2
+
+yui_3_10_0_1_1586622359789_416
+//a[starts-with(@id ,'yui_3_10')] ---------selecting all the buttons
+//a[text()='2'] ------------ selecting the button 2
